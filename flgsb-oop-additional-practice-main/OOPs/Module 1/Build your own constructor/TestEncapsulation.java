@@ -62,7 +62,7 @@ public class TestEncapsulation {
         } else if (emp1.getSalary() < emp2.getSalary()) {
             return emp2.getName();
         } else {
-            return "Equal salaries";
+            return "Salários iguais";
         }
     }
 }
