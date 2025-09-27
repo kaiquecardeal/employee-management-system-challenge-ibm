@@ -1,27 +1,29 @@
 # FileSystemManager
 
-In this challenge, you'll create a File and Directory Management System using Java. This hands-on exercise will help you apply key concepts from Java's file handling capabilities. You'll build a console application that allows users to navigate and manipulate the file system, reinforcing concepts of object-oriented programming, recursive methods, and file I/O operations.
+Neste desafio, você criará um Sistema de Gerenciamento de Arquivos e Diretórios usando Java. Este exercício prático o ajudará a aplicar conceitos-chave das capacidades de manipulação de arquivos do Java. Você construirá uma aplicação de console que permite aos usuários navegar e manipular o sistema de arquivos, reforçando conceitos de programação orientada a objetos, métodos recursivos e operações de I/O de arquivo.
 
 #### By completing this challenge, you'll gain practical experience with:
-- Working with Java's java.io.File class
-- Navigating directory structures
-- Creating, renaming, and deleting files and directories
-- Using recursion to process nested directories
-- Building an interactive command-line interface
+- Trabalhar com a classe java.io.File do Java
+- Navegar por estruturas de diretórios
+- Criar, renomear e excluir arquivos e diretórios
+- Usar recursão para processar diretórios aninhados
+- Construir uma interface de linha de comando interativa
 
-This challenge extends the lab content by asking you to create a more feature-rich application with a different approach to the user interface.
+Este desafio estende o conteúdo do laboratório, pedindo que você crie uma aplicação com mais recursos e com uma abordagem diferente para a interface do usuário.
+
 #### Challenge Description
-Create a Java application called FileSystemManager that provides a file explorer with the following capabilities:
-1.	Display the current working directory
-2.	List files and directories in the current directory
-3.	Navigate into subdirectories (cd command)
-4.	Navigate up to the parent directory (cd .. command)
-5.	Create new files and directories
-6.	Delete files and directories
-7.	Rename files and directories
-8.	Search for files by name pattern
-9.	Show detailed file information (size, last modified date, etc.)
 
-Instead of using numbered menu options like in the lab, your application should implement a command-line interface similar to shell commands. For example, the user could type ls to list files, cd documents to change directory, or mkdir new_folder to create a directory.
+Crie uma aplicação Java chamada FileSystemManager que forneça um explorador de arquivos com as seguintes capacidades:
+1 - Exibir o diretório de trabalho atual.
+2 - Listar arquivos e diretórios no diretório atual.
+3 - Navegar para subdiretórios (comando cd).
+4 - Navegar para o diretório pai (comando cd ..).
+5 - Criar novos arquivos e diretórios.
+6 - Excluir arquivos e diretórios.
+7 - Renomear arquivos e diretórios.
+8 -Pesquisar arquivos por padrão de nome.
+9 - Mostrar informações detalhadas do arquivo (tamanho, data da última modificação, etc.).
+
+Em vez de usar opções de menu numeradas como no laboratório, sua aplicação deve implementar uma interface de linha de comando semelhante aos comandos de shell. Por exemplo, o usuário pode digitar ls para listar arquivos, cd documentos para mudar de diretório, ou mkdir nova_pasta para criar um diretório.
 
 
